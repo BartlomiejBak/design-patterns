@@ -1,6 +1,6 @@
 package com.designPatterns.Command;
 
-public class CommandTwo implements ICommand{
+public class CommandTwo implements ICommand {
     private Receiver receiver;
 
     public CommandTwo(Receiver receiver) {
@@ -9,11 +9,11 @@ public class CommandTwo implements ICommand{
 
     @Override
     public void execute() {
-        this.receiver.action();
+        this.receiver.actionTwo();
     }
 
     @Override
     public void unexecute() {
-        this.receiver.unAction();
+        this.receiver.unActionTwo();
     }
 }

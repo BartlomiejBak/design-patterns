@@ -13,7 +13,15 @@ public class Invoker {
         this.commandOne.execute();
     }
 
+    public void undoCommandOne() {
+        this.commandOne.unexecute();
+    }
+
     public void useCommandTwo() {
         this.commandTwo.execute();
+    }
+
+    public void undoCommandTwo() {
+        this.commandTwo.unexecute();
     }
 }

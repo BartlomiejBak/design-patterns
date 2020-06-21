@@ -9,11 +9,11 @@ public class CommandOne implements ICommand {
 
     @Override
     public void execute() {
-        this.receiver.action();
+        this.receiver.actionOne();
     }
 
     @Override
     public void unexecute() {
-        this.receiver.unAction();
+        this.receiver.unActionOne();
     }
 }
