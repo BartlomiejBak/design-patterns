@@ -1,4 +1,4 @@
-package com.designPatterns.Command;
+package command;
 
 public class Receiver {
     public void actionOne() {

@@ -1,8 +1,8 @@
-package com.designPatterns.Command;
+package command;
 
 public class Invoker {
-    public ICommand commandOne;
-    public ICommand commandTwo;
+    public final ICommand commandOne;
+    public final ICommand commandTwo;
 
     public Invoker(ICommand commandOne, ICommand commandTwo) {
         this.commandOne = commandOne;

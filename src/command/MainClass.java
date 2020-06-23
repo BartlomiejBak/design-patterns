@@ -1,4 +1,4 @@
-package com.designPatterns.Command;
+package command;
 
 public class MainClass {
     public static void main(String[] args) {

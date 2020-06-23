@@ -1,7 +1,7 @@
-package com.designPatterns.Command;
+package command;
 
 public class CommandTwo implements ICommand {
-    private Receiver receiver;
+    private final Receiver receiver;
 
     public CommandTwo(Receiver receiver) {
         this.receiver = receiver;
