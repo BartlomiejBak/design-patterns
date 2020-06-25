@@ -6,4 +6,5 @@ I. Design patterns
   - command
   - factory method
   - observer
+  - singleton
   - strategy
