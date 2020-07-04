@@ -6,6 +6,7 @@ I. Design patterns
   - adapter
   - command
   - decorator
+  - facade
   - factory method
   - observer
   - singleton
