@@ -9,5 +9,6 @@ I. Design patterns
   - facade
   - factory method
   - observer
+  - proxy
   - singleton
   - strategy
